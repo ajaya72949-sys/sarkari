@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="नवीनतम सरकारी नौकरी, रिजल्ट, एडमिट कार्ड, आंसर की और परीक्षा अपडेट एक ही जगह पर पाएं।">
+  <meta name="theme-color" content="#123b68">
+  <title>नौकरी सूचना — Latest Government Jobs & Exam Updates</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="topbar">
+      <a class="brand" href="#home" aria-label="नौकरी सूचना होम">
+        <span class="brand-mark" aria-hidden="true">NI</span>
+        <span class="brand-copy"><strong>नौकरी सूचना</strong><small>आपका भरोसेमंद जॉब अपडेट पोर्टल</small></span>
+      </a>
+      <form class="search-form" role="search" action="#updates">
+        <label class="visually-hidden" for="site-search">नौकरी या परीक्षा खोजें</label>
+        <input id="site-search" type="search" placeholder="नौकरी, परीक्षा या रिजल्ट खोजें...">
+        <button type="submit">खोजें</button>
+      </form>
+    </div>
+    <nav class="main-nav" aria-label="मुख्य नेविगेशन">
+      <div class="nav-inner">
+        <a class="nav-home" href="#home">⌂ <span class="visually-hidden">होम</span></a>
+        <a href="#latest-jobs">Latest Jobs</a>
+        <a href="#admit-card">Admit Card</a>
+        <a href="#answer-key">Answer Key</a>
+        <a href="#result">Result</a>
+        <a href="#syllabus">Syllabus</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home" class="page-wrap">
+    <section class="welcome" aria-labelledby="welcome-title">
+      <p class="eyebrow">सरकारी नौकरी और परीक्षा अपडेट</p>
+      <h1 id="welcome-title">सही जानकारी, सही समय पर</h1>
+      <p>सरकारी भर्ती, प्रवेश पत्र, परीक्षा परिणाम और अन्य जरूरी सूचनाएं यहां पाएं।</p>
+      <div class="live-time">अपडेट समय: <time id="currentTime">लोड हो रहा है...</time></div>
+    </section>
+
+    <section class="ticker" aria-label="ट्रेंडिंग अपडेट">
+      <span class="ticker-label">ट्रेंडिंग</span>
+      <div class="ticker-links">
+        <a href="#latest-jobs">नई भर्ती सूचनाएं देखें</a>
+        <span aria-hidden="true">•</span>
+        <a href="#result">हाल के परीक्षा परिणाम</a>
+        <span aria-hidden="true">•</span>
+        <a href="#admit-card">आगामी एडमिट कार्ड</a>
+      </div>
+    </section>
+
+    <section class="notice-section" aria-label="महत्वपूर्ण सूचनाएं">
+      <div class="notice-box notice-primary">
+        <span class="notice-icon" aria-hidden="true">✦</span>
+        <div><h2>आज की मुख्य सूचना</h2><p>नई भर्ती और परीक्षा अपडेट के लिए नीचे दिए गए सेक्शन देखें।</p></div>
+        <a href="#latest-jobs" class="text-link">सभी अपडेट <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="notice-box">
+        <span class="notice-icon notice-icon-muted" aria-hidden="true">✓</span>
+        <div><h2>उम्मीदवारों के लिए</h2><p>आवेदन करने से पहले आधिकारिक नोटिफिकेशन ध्यान से पढ़ें।</p></div>
+      </div>
+    </section>
+
+    <section class="updates-section" id="updates" aria-labelledby="updates-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">एक नज़र में</p><h2 id="updates-title">नवीनतम अपडेट</h2></div>
+        <span class="heading-note">अपनी पसंद का सेक्शन चुनें</span>
+      </div>
+
+      <div class="updates-grid">
+        <article class="update-card" id="result">
+          <h3><span class="card-icon" aria-hidden="true">↗</span> रिजल्ट</h3>
+          <ul class="update-list">
+            <li><a href="#result">परीक्षा परिणाम और मेरिट लिस्ट</a><span class="tag tag-new">नया</span></li>
+            <li><a href="#result">भर्ती परीक्षा स्कोर कार्ड</a></li>
+            <li><a href="#result">चयन सूची और कट-ऑफ अपडेट</a></li>
+            <li><a href="#result">पुराने परिणाम देखें</a></li>
+          </ul>
+          <a class="card-more" href="#result">सभी रिजल्ट <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="update-card" id="admit-card">
+          <h3><span class="card-icon" aria-hidden="true">▣</span> एडमिट कार्ड</h3>
+          <ul class="update-list">
+            <li><a href="#admit-card">आगामी परीक्षा प्रवेश पत्र</a><span class="tag tag-new">नया</span></li>
+            <li><a href="#admit-card">भर्ती परीक्षा हॉल टिकट</a></li>
+            <li><a href="#admit-card">परीक्षा शहर की जानकारी</a></li>
+            <li><a href="#admit-card">पुराने एडमिट कार्ड</a></li>
+          </ul>
+          <a class="card-more" href="#admit-card">सभी एडमिट कार्ड <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="update-card" id="latest-jobs">
+          <h3><span class="card-icon" aria-hidden="true">✚</span> नवीनतम नौकरियां</h3>
+          <ul class="update-list">
+            <li><a href="#latest-jobs">केंद्र और राज्य सरकार की भर्ती</a><span class="tag tag-new">नया</span></li>
+            <li><a href="#latest-jobs">10वीं / 12वीं पास नौकरियां</a></li>
+            <li><a href="#latest-jobs">ग्रेजुएट और डिप्लोमा भर्ती</a></li>
+            <li><a href="#latest-jobs">आवेदन की अंतिम तिथि देखें</a></li>
+          </ul>
+          <a class="card-more" href="#latest-jobs">सभी नौकरियां <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="update-card" id="answer-key">
+          <h3><span class="card-icon" aria-hidden="true">☷</span> आंसर की</h3>
+          <ul class="update-list">
+            <li><a href="#answer-key">लिखित परीक्षा की उत्तर कुंजी</a></li>
+            <li><a href="#answer-key">आपत्ति दर्ज करने की जानकारी</a></li>
+            <li><a href="#answer-key">प्रोविजनल और फाइनल आंसर की</a></li>
+          </ul>
+          <a class="card-more" href="#answer-key">सभी आंसर की <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="update-card" id="syllabus">
+          <h3><span class="card-icon" aria-hidden="true">▤</span> सिलेबस</h3>
+          <ul class="update-list">
+            <li><a href="#syllabus">परीक्षा पैटर्न और सिलेबस</a></li>
+            <li><a href="#syllabus">विषयवार पाठ्यक्रम डाउनलोड</a></li>
+            <li><a href="#syllabus">पिछले वर्षों के प्रश्नपत्र</a></li>
+          </ul>
+          <a class="card-more" href="#syllabus">सभी सिलेबस <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="update-card" id="admission">
+          <h3><span class="card-icon" aria-hidden="true">⌂</span> प्रवेश</h3>
+          <ul class="update-list">
+            <li><a href="#admission">प्रवेश परीक्षा आवेदन</a></li>
+            <li><a href="#admission">कॉलेज और संस्थान प्रवेश</a></li>
+            <li><a href="#admission">प्रवेश परीक्षा परिणाम</a></li>
+          </ul>
+          <a class="card-more" href="#admission">सभी प्रवेश अपडेट <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="update-card" id="certificate">
+          <h3><span class="card-icon" aria-hidden="true">▣</span> प्रमाणपत्र सत्यापन</h3>
+          <ul class="update-list">
+            <li><a href="#certificate">दस्तावेज़ सत्यापन सूचना</a></li>
+            <li><a href="#certificate">काउंसलिंग और चयन प्रक्रिया</a></li>
+            <li><a href="#certificate">जरूरी प्रमाणपत्रों की सूची</a></li>
+          </ul>
+          <a class="card-more" href="#certificate">विवरण देखें <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="update-card" id="documents">
+          <h3><span class="card-icon" aria-hidden="true">▧</span> जरूरी दस्तावेज़</h3>
+          <ul class="update-list">
+            <li><a href="#documents">आवेदन के लिए आवश्यक दस्तावेज़</a></li>
+            <li><a href="#documents">फोटो और हस्ताक्षर दिशानिर्देश</a></li>
+            <li><a href="#documents">फॉर्म भरने में मदद</a></li>
+          </ul>
+          <a class="card-more" href="#documents">सभी गाइड देखें <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="services-section" id="sarkari-seva" aria-labelledby="services-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">नागरिक सेवाएं</p><h2 id="services-title">सरकारी काम और योजनाएं</h2></div>
+        <span class="heading-note">आवेदन और जरूरी जानकारी</span>
+      </div>
+      <div class="services-grid">
+        <article class="service-card">
+          <h3><span class="card-icon" aria-hidden="true">▣</span> सरकारी काम</h3>
+          <ul class="service-list">
+            <li><a href="#sarkari-seva">आधार कार्ड सेवाएं और अपडेट</a><span aria-hidden="true">→</span></li>
+            <li><a href="#sarkari-seva">पैन कार्ड आवेदन और सुधार</a><span aria-hidden="true">→</span></li>
+            <li><a href="#sarkari-seva">जाति, आय और निवास प्रमाणपत्र</a><span aria-hidden="true">→</span></li>
+            <li><a href="#sarkari-seva">राशन कार्ड आवेदन और स्थिति</a><span aria-hidden="true">→</span></li>
+            <li><a href="#sarkari-seva">वोटर आईडी और मतदाता सूची</a><span aria-hidden="true">→</span></li>
+          </ul>
+        </article>
+        <article class="service-card">
+          <h3><span class="card-icon" aria-hidden="true">✦</span> सरकारी योजनाएं</h3>
+          <ul class="service-list">
+            <li><a href="#sarkari-seva">प्रधानमंत्री किसान सम्मान निधि</a><span aria-hidden="true">→</span></li>
+            <li><a href="#sarkari-seva">आयुष्मान भारत स्वास्थ्य कार्ड</a><span aria-hidden="true">→</span></li>
+            <li><a href="#sarkari-seva">प्रधानमंत्री आवास योजना</a><span aria-hidden="true">→</span></li>
+            <li><a href="#sarkari-seva">ई-श्रम कार्ड और श्रमिक सेवाएं</a><span aria-hidden="true">→</span></li>
+            <li><a href="#sarkari-seva">छात्रवृत्ति योजनाएं और आवेदन</a><span aria-hidden="true">→</span></li>
+          </ul>
+        </article>
+      </div>
+      <p class="services-note">योजना की पात्रता, आवेदन की तारीख और जरूरी दस्तावेज़ संबंधित सरकारी पोर्टल से जांचें।</p>
+    </section>
+
+    <aside class="disclaimer" aria-label="महत्वपूर्ण डिस्क्लेमर">
+      <strong>महत्वपूर्ण:</strong> यह जानकारी केवल सामान्य सूचना के लिए है। आवेदन, तारीख और पात्रता की पुष्टि संबंधित आधिकारिक वेबसाइट या नोटिफिकेशन से अवश्य करें।
+    </aside>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-inner">
+      <div class="footer-about"><a class="footer-brand" href="#home">नौकरी सूचना</a><p>सरकारी नौकरी और परीक्षा से जुड़ी जानकारी सरल भाषा में।</p></div>
+      <div class="footer-links"><h2>जानकारी</h2><a href="#disclaimer">Disclaimer</a><a href="#privacy">Privacy Policy</a><a href="#terms">Terms &amp; Conditions</a></div>
+      <div class="footer-links"><h2>हमसे जुड़ें</h2><a href="#contact">Telegram</a><a href="#contact">Facebook</a><a href="mailto:info@example.com">Email</a><a href="admin.html">Admin Panel</a></div>
+    </div>
+    <div class="copyright">© <span id="year">2025</span> नौकरी सूचना। सर्वाधिकार सुरक्षित।</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
