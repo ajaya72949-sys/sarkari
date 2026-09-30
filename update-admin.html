@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Edit details for homepage exam, recruitment and government update links.">
+  <title>Admin — Edit Homepage Updates | New SARKARI UPDATES</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="signature-page">
+  <main class="signature-page-wrap local-tool-page admin-page">
+    <a class="signature-back-link" href="index.html">← Back to homepage</a>
+    <header class="signature-tool-header">
+      <h1>Admin — Edit Homepage Updates</h1>
+      <p>Edit details for Result, Admit Card, Latest Job, Answer Key, Syllabus, Admission, Sarkari Kaam and Government Yojna links.</p>
+    </header>
+    <p class="admin-storage-note"><strong>Important:</strong> Saved changes stay only in this browser on this device. This local editor does not publish updates for other visitors.</p>
+
+    <section class="signature-tool-card update-admin-card" id="update-admin" aria-labelledby="update-admin-title">
+      <header class="signature-tool-header">
+        <h2 id="update-admin-title">Update details</h2>
+        <p>Select a category and link, add verified details, then save to preview them on its detail page.</p>
+      </header>
+      <div class="admin-form">
+        <label for="update-admin-section">Category
+          <select class="local-tool-input" id="update-admin-section"></select>
+        </label>
+        <label for="update-admin-item">Update link
+          <select class="local-tool-input" id="update-admin-item"></select>
+        </label>
+        <label for="update-admin-description">Details / description
+          <textarea class="local-tool-input" id="update-admin-description" rows="5" placeholder="Add verified details for this update."></textarea>
+        </label>
+        <label for="update-admin-info">Dates / extra information
+          <textarea class="local-tool-input" id="update-admin-info" rows="3" placeholder="Add dates or other useful information."></textarea>
+        </label>
+        <label for="update-admin-url">Official website / notification URL
+          <input class="local-tool-input" id="update-admin-url" type="url" placeholder="https://...">
+        </label>
+        <div class="admin-actions">
+          <button class="local-tool-primary" type="button" id="update-admin-save">Save update</button>
+          <button class="image-secondary-button" type="button" id="update-admin-reset">Clear saved details</button>
+          <a class="signature-launch-link" href="admin.html">Edit Railway &amp; Defence notice</a>
+        </div>
+        <p class="local-tool-status" id="update-admin-status" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

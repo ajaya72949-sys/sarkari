@@ -1,0 +1,75 @@
+/* Styles dedicated to the Railway & Defence admin page. */
+.admin-page {
+  max-width: 900px;
+}
+
+.admin-page .signature-tool-header {
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.admin-page .signature-tool-header h1 {
+  font-size: clamp(26px, 4vw, 36px);
+}
+
+.admin-page .signature-tool-header p {
+  max-width: 680px;
+  line-height: 1.6;
+}
+
+.admin-page .admin-storage-note {
+  margin: 18px 0;
+  padding: 14px 16px;
+  border-left: 4px solid #d79a18;
+  border-radius: 7px;
+  line-height: 1.55;
+}
+
+.admin-page .admin-form {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.admin-page .admin-form > label,
+.admin-page .admin-field-row,
+.admin-page .admin-actions,
+.admin-page .local-tool-status {
+  grid-column: 1 / -1;
+}
+
+.admin-page .admin-field-row {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.admin-page .admin-form > label,
+.admin-page .admin-field-row label {
+  gap: 8px;
+}
+
+.admin-page .admin-form textarea.local-tool-input {
+  min-height: 110px;
+}
+
+.admin-page .admin-form input:focus,
+.admin-page .admin-form textarea:focus {
+  outline: 3px solid rgba(23, 105, 170, .15);
+  border-color: #1769aa;
+}
+
+.admin-page .admin-actions {
+  padding-top: 5px;
+}
+
+.admin-page .admin-form [name="title"],
+.admin-page .admin-form [name="organization"],
+.admin-page .admin-form [name="applyUrl"],
+.admin-page .admin-form [name="officialUrl"] {
+  min-height: 46px;
+}
+
+@media (max-width: 620px) {
+  .admin-page .admin-form,
+  .admin-page .admin-field-row {
+    grid-template-columns: 1fr;
+  }
+}
