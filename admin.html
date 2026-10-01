@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Edit Railway and Defence recruitment notice details.">
+  <title>Admin — Edit Recruitment Notice | New SARKARI UPDATES</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="admin.css">
+  <script src="script.js" defer></script>
+  <script src="admin.js" defer></script>
+</head>
+<body class="signature-page">
+  <main class="signature-page-wrap local-tool-page admin-page" data-recruitment-admin>
+    <a class="signature-back-link" href="railway-defence.html">← Back to recruitment notice</a>
+    <header class="signature-tool-header">
+      <h1>Admin — Edit Recruitment Notice</h1>
+      <p>Edit each section of the Railway &amp; Defence notice, then save to preview it on the detail page.</p>
+    </header>
+    <p class="admin-storage-note"><strong>Important:</strong> This editor saves changes only in this browser on this device (local storage). It is not a protected server admin and does not publish changes for other visitors.</p>
+
+    <section class="admin-branding" aria-labelledby="branding-title">
+      <h2 id="branding-title">Homepage Logo Settings</h2>
+      <p>Paste a public image URL for the header logo and the logo shown directly below the disclaimer. Add a destination URL to make each logo clickable.</p>
+      <form class="signature-tool-card admin-form" id="branding-admin-form">
+        <h3>Header logo</h3>
+        <label>Header logo image URL<input class="local-tool-input" name="headerImageUrl" type="url" placeholder="https://example.com/header-logo.png"></label>
+        <label>Header logo click-through URL<input class="local-tool-input" name="headerClickUrl" type="url" placeholder="https://example.com/"></label>
+        <h3>Logo below disclaimer</h3>
+        <label>Footer logo image URL<input class="local-tool-input" name="footerImageUrl" type="url" placeholder="https://example.com/footer-logo.png"></label>
+        <label>Footer logo click-through URL<input class="local-tool-input" name="footerClickUrl" type="url" placeholder="https://example.com/"></label>
+        <div class="admin-actions">
+          <button class="local-tool-primary" type="submit">Save logo settings</button>
+          <button class="image-secondary-button" id="branding-reset" type="button">Remove custom logos</button>
+          <a class="signature-launch-link" href="index.html">Preview homepage</a>
+        </div>
+        <p class="local-tool-status" id="branding-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="admin-social-settings" aria-labelledby="social-settings-title">
+      <h2 id="social-settings-title">Homepage Social Links Ticker</h2>
+      <p>Add Telegram, Instagram, YouTube, website or other channel links. The links appear in an automatically scrolling strip below the main menu.</p>
+      <form class="signature-tool-card admin-form" id="social-admin-form">
+        <div class="social-admin-links" id="social-admin-links" aria-live="polite"></div>
+        <button class="image-secondary-button" id="social-admin-add" type="button">+ Add social link</button>
+        <label class="social-admin-speed">Scroll speed (seconds per loop)<input class="local-tool-input" name="speed" type="number" min="10" max="90" value="30"></label>
+        <label class="social-admin-autoscroll"><input name="enabled" type="checkbox" checked> Enable automatic scrolling</label>
+        <div class="admin-actions">
+          <button class="local-tool-primary" type="submit">Save social links</button>
+          <button class="image-secondary-button" id="social-admin-reset" type="button">Remove all social links</button>
+          <a class="signature-launch-link" href="index.html">Preview homepage</a>
+        </div>
+        <p class="local-tool-status" id="social-admin-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <form class="signature-tool-card admin-form" id="recruitment-admin-form">
+      <label>Page title<input class="local-tool-input" name="title" required></label>
+      <label>Organization / department<input class="local-tool-input" name="organization"></label>
+      <div class="admin-field-row">
+        <label>Post date<input class="local-tool-input" name="postDate"></label>
+        <label>Last updated<input class="local-tool-input" name="updatedAt"></label>
+      </div>
+      <label>Short information / summary<textarea class="local-tool-input" name="shortInfo" rows="3"></textarea></label>
+      <label>Recruitment rows <small>One row per line; use | between post name, total posts and eligibility/details.</small><textarea class="local-tool-input" name="vacancies" rows="4"></textarea></label>
+      <label>Important dates <small>One row per line; use | between event and date/details.</small><textarea class="local-tool-input" name="importantDates" rows="4"></textarea></label>
+      <label>Application fee <small>One item per line.</small><textarea class="local-tool-input" name="applicationFee" rows="3"></textarea></label>
+      <label>Age limit <small>One item per line.</small><textarea class="local-tool-input" name="ageLimit" rows="3"></textarea></label>
+      <label>Eligibility <small>One item per line.</small><textarea class="local-tool-input" name="eligibility" rows="3"></textarea></label>
+      <label>Selection process <small>One item per line.</small><textarea class="local-tool-input" name="selectionProcess" rows="3"></textarea></label>
+      <label>How to apply <small>One step per line.</small><textarea class="local-tool-input" name="howToApply" rows="4"></textarea></label>
+      <label>Notification details <small>One item per line.</small><textarea class="local-tool-input" name="noticeDetails" rows="4"></textarea></label>
+      <label>Apply online URL<input class="local-tool-input" name="applyUrl" type="url" placeholder="https://..."></label>
+      <label>Official notification / website URL<input class="local-tool-input" name="officialUrl" type="url" placeholder="https://..."></label>
+      <div class="admin-actions">
+        <button class="local-tool-primary" type="submit">Save notice</button>
+        <button class="image-secondary-button" id="admin-reset" type="button">Restore template</button>
+        <a class="signature-launch-link" href="railway-defence.html">Preview detail page</a>
+        <a class="signature-launch-link" href="update-admin.html">Edit homepage updates</a>
+      </div>
+      <p class="local-tool-status" id="admin-status" role="status" aria-live="polite"></p>
+    </form>
+
+  </main>
+</body>
+</html>
